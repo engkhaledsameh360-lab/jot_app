@@ -5,6 +5,7 @@ void main() {
   runApp(JotApp());
 }
 class JotApp extends StatelessWidget {
+  const JotApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
