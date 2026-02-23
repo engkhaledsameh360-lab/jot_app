@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jot_app/view/jot_view.dart';
+import 'package:jot_app/view/JotView/jot_view.dart';
 
 void main() {
   runApp(JotApp());
