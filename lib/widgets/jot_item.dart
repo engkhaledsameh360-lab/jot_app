@@ -23,6 +23,7 @@ class JotItem extends StatelessWidget {
                 style: TextStyle(
                   color: const Color.fromARGB(255, 0, 0, 0),
                   fontSize: 26,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),

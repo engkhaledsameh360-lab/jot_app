@@ -9,7 +9,7 @@ class AppBarWidget extends StatelessWidget {
     return Row(
       children: [
         const Text(
-          'J o t',
+          'J O T',
           style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
         ),
           const Spacer(),

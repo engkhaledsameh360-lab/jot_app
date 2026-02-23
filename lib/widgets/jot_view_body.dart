@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jot_app/widgets/app_bar_widget.dart';
-import 'package:jot_app/widgets/jot_item.dart';
+import 'package:jot_app/widgets/note_list.dart';
 
 class JotViewBody extends StatelessWidget {
   const JotViewBody({super.key});
@@ -13,7 +13,8 @@ class JotViewBody extends StatelessWidget {
         children: [
           const SizedBox(height: 45),
           const AppBarWidget(),
-          const JotItem(),
+          Expanded(child: const NoteList()),
+
         ],
       ),
     );
