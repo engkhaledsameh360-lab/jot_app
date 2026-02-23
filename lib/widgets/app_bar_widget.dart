@@ -10,7 +10,7 @@ class AppBarWidget extends StatelessWidget {
       children: [
         const Text(
           'J O T',
-          style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 34, fontWeight: FontWeight.bold),
         ),
           const Spacer(),
           const SearchIcon(),

@@ -29,7 +29,7 @@ class JotItem extends StatelessWidget {
             ),
             subtitle: Text('Subtitle', style: TextStyle(
               color: const Color.fromARGB(255, 0, 0, 0).withOpacity(0.6),
-              fontSize: 18,
+              fontSize: 16,
             )),
             trailing: Icon(Icons.delete, color: Colors.black,size: 26,),
           ),
@@ -37,7 +37,7 @@ class JotItem extends StatelessWidget {
             padding: const EdgeInsets.only(right: 24, top: 16),
             child: Text('Feb 22, 2026', style: TextStyle(
                 color: const Color.fromARGB(255, 0, 0, 0).withOpacity(0.5),
-                fontSize: 14,
+                fontSize: 12,
               )),
           ),
         ],
