@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:jot_app/widgets/app_bar_widget.dart';
+import 'package:jot_app/widgets/jot_item.dart';
 
 class JotViewBody extends StatelessWidget {
   const JotViewBody({super.key});
@@ -9,9 +10,10 @@ class JotViewBody extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
-        children: [ 
-         const SizedBox( height: 45),
-         const AppBarWidget ()
+        children: [
+          const SizedBox(height: 45),
+          const AppBarWidget(),
+          const JotItem(),
         ],
       ),
     );
