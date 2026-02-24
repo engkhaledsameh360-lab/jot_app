@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/adapters.dart';
 import 'package:jot_app/view/JotView/jot_view.dart';
+import 'package:jot_app/widgets/constants.dart';
 
-void main() {
+void main () async {
+  await Hive.initFlutter();
+  await Hive.openBox(kJotBox);
   runApp(JotApp());
 }
 class JotApp extends StatelessWidget {
