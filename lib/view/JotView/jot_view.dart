@@ -3,6 +3,7 @@ import 'package:jot_app/view/ShowModalBottomSheetView/add_show_modal_bottom_shee
 import 'package:jot_app/widgets/jot_view_body.dart';
 
 class JotView extends StatelessWidget {
+  const JotView({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(

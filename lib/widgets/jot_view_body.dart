@@ -12,7 +12,7 @@ class JotViewBody extends StatelessWidget {
       child: Column(
         children: [
           const SizedBox(height: 45),
-          const AppBarWidget(),
+          const AppBarWidget(title: 'J O T' , icon: Icons.search),
           Expanded(child: const NoteList()),
 
         ],

@@ -15,3 +15,4 @@ class JotApp extends StatelessWidget {
     );
   }
 }
+
